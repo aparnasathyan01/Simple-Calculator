@@ -1,14 +1,16 @@
 body {
     text-align: center;
+    padding-top: 10px;
     color: white;
-    font-size: x-large;
+    font-size: xx-large;
     font-family: "Lucida Console", Courier, monospace;
     background-color: black;
 }
 #container{
-    width: 1450px;
+    width: 1oo0px;
     height: 600px;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(hinatawallpaper.jpg);
+    padding-left: 30px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(bla.jpg);
     margin: 40px 50px 30px 30px;
 }
 #calculator{
