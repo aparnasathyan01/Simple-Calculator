@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: black;
+}
+#container{
+    width: 1450px;
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(hinatawallpaper.jpg);
+    margin: 40px 50px 30px 30px;
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: aliceblue;
+    margin: auto;
+    top: 45px;
+    position: relative;
+    border-radius: 8px ;
+}
+#result{
+    height: 120px;
+}
+#history{
+    color: #8F8D8D;
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+#output{
+    color: black;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 45%;
+    border-width: 0ch;
+    font-size: 15px;
+    font-weight: bold;
+}
+.empty{
+    background-color: aliceblue;
+}
+.number, .operator{
+    cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 12px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #fa6767;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #00ff00
+}
+button:nth-child(12){
+    font-size: 30px;
+    background-color: #809fff
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #ffff00
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #d96ffc
+}
