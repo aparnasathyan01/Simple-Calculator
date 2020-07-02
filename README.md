@@ -1,2 +1,4 @@
 # A simple calculator :pencil:
-A simple calculator made using HTML, CSS and JavaScript. 
+![](screenshot.jpg)
+
+### A simple calculator made using HTML, CSS and JavaScript. 
