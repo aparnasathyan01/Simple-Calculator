@@ -10,7 +10,7 @@ body {
     width: 1oo0px;
     height: 600px;
     padding-left: 30px;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(bla.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(background.jpg);
     margin: 40px 50px 30px 30px;
 }
 #calculator{
